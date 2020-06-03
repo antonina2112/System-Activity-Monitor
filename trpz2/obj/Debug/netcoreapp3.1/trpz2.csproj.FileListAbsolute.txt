@@ -1,0 +1,29 @@
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.exe
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.deps.json
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.runtimeconfig.json
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.runtimeconfig.dev.json
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.pdb
+D:\6_sem\trpz\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.csprojAssemblyReference.cache
+D:\6_sem\trpz\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.AssemblyInfoInputs.cache
+D:\6_sem\trpz\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.AssemblyInfo.cs
+D:\6_sem\trpz\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.dll
+D:\6_sem\trpz\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.pdb
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\6_sem\trpz\trpz2\trpz2\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\6_sem\trpz\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.csproj.CopyComplete
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.deps.json
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.dll
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\bin\Debug\netcoreapp3.1\trpz2.pdb
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.csprojAssemblyReference.cache
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.AssemblyInfoInputs.cache
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.AssemblyInfo.cs
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.dll
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.pdb
+D:\6_sem\trpz\Новая папка\trpz2\trpz2\obj\Debug\netcoreapp3.1\trpz2.csproj.CoreCompileInputs.cache
