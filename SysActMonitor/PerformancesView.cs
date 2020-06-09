@@ -12,40 +12,70 @@ namespace SysActMonitor
 {
     public class PerformancesView
     {
-        static MemoryPerformanceSingleton memoryPerformanceSingleton = new MemoryPerformanceSingleton();
-        public ObservableCollection<Performance> memoryPerformance { get; set; } = new ObservableCollection<Performance>();
-        AbstractPerformanceDisplay _memoryDisplay = 
-            new MemoryPerformanceDisplay(memoryPerformanceSingleton);
-        List<Performance> _memoryPerformances = memoryPerformanceSingleton.GetPerformance();
+        readonly AbstractPerformanceDisplay _memoryDisplay = new MemoryPerformanceDisplay(MemoryPerformanceSingleton.GetInstance());
+        readonly AbstractPerformanceDisplay _cpuDisplay = new CpuPerformanceDisplay(CpuPerformanceSingleton.GetInstance());
 
-        public PerformancesView()
+        
+
+        public ObservableCollection<Performance> memoryPerformance { get; set; } = new ObservableCollection<Performance>();
+        public ObservableCollection<Performance> cpuPerformance { get; set; } = new ObservableCollection<Performance>();
+
+        //List<Performance> _cpuPerformances = cpuPerformanceSingleton.GetPerformance();
+
+        public PerformancesView(int k)
         {
-            this.UpdateChart();
+            this.UpdateChart(k);
         }
 
-        async Task UpdateChart()
+        async Task UpdateChart(int k)
         {
             while (true)
             {
                 await Task.Delay(1000);
                 memoryPerformance = new ObservableCollection<Performance>(_memoryDisplay.GetPerformance());
-                this.PrintMemory();
+                cpuPerformance = new ObservableCollection<Performance>(_cpuDisplay.GetPerformance());
+                if (k==1)
+                {
+                    PrintMemory();
+                }
+                else
+                {
+                    PrintCpu();
+                }
                 //CpuPerformance = new ObservableCollection<Performance>(Service.GetCpuPerformance());
             }
         }
 
         public void PrintMemory() 
         {
-            foreach (Performance p in _memoryPerformances)
+            foreach (Performance p in _memoryDisplay.GetPerformance())
             {
                 Console.WriteLine($"Memory performance time: {p.Time}, \n performance value: {p.Value}");
             }
         }
 
-        public void Add(Performance p)
+        public void PrintCpu()
         {
-            memoryPerformance.Add(p);
+            foreach (Performance p in _cpuDisplay.GetPerformance())
+            {
+                Console.WriteLine($"Cpu performance time: {p.Time}, \n performance value: {p.Value}");
+            }
+        }
+
+
+        public void Add(Performance p, int k)
+        {
+            if (k == 1)
+            {
+                memoryPerformance.Add(p);
+            }
+            else
+            {
+                cpuPerformance.Add(p);
+            }
+           
 
         }
+
     }
 }
