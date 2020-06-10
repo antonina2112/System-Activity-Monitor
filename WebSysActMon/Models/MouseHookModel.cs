@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace WebSysActMon.Models
 {
+    [DataContract]
     public class MouseHookModel
     {
+        [DataMember]
         public string EventType { get; set; }
-
+        [DataMember]
         public string Button { get; set; }
-
+        [DataMember]
         public string X { get; set; }
-
+        [DataMember]
         public string Y { get; set; }
     }
 }

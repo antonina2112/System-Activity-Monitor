@@ -12,15 +12,16 @@ namespace SysActMWebSysActMononitor
 {
     public class PerformancesView
     {
+        private readonly WebService Service;
         static MemoryPerformanceSingleton memoryPerformanceSingleton = new MemoryPerformanceSingleton();
         static CpuPerformanceSingleton CpuPerformanceSingleton = new CpuPerformanceSingleton();
 
         public ObservableCollection<Performance> memoryPerformance { get; set; } = new ObservableCollection<Performance>();
         public ObservableCollection<Performance> cpuPerformance { get; set; } = new ObservableCollection<Performance>();
 
-        AbstractPerformanceDisplay _memoryDisplay = 
-            new MemoryPerformanceDisplay(memoryPerformanceSingleton);
-        AbstractPerformanceDisplay _cpuDisplay = new CpuPerformanceDisplay(CpuPerformanceSingleton);
+        //AbstractPerformanceDisplay _memoryDisplay = 
+        //    new MemoryPerformanceDisplay(memoryPerformanceSingleton);
+        //AbstractPerformanceDisplay _cpuDisplay = new CpuPerformanceDisplay(CpuPerformanceSingleton);
 
         List<Performance> _memoryPerformances = memoryPerformanceSingleton.GetPerformance();
         List<Performance> _cpuPerformances = CpuPerformanceSingleton.GetPerformance();
@@ -35,8 +36,10 @@ namespace SysActMWebSysActMononitor
             while (true)
             {
                 await Task.Delay(1000);
-                memoryPerformance = new ObservableCollection<Performance>(_memoryDisplay.GetPerformance());
-                cpuPerformance = new ObservableCollection<Performance>(_cpuDisplay.GetPerformance());
+                memoryPerformance = new ObservableCollection<Performance>
+                    (Service.GetMemoryPerformance()/*_memoryDisplay.GetPerformance()*/);
+                cpuPerformance = new ObservableCollection<Performance>
+                    (Service.GetMemoryPerformance()/*_cpuDisplay.GetPerformance()*/);
                 if (k==1)
                 {
                     this.PrintMemory();
