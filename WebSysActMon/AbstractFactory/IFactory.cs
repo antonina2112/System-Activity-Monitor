@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace trpz2.AbstractFactory
+namespace WebSysActMon.AbstractFactory
 {
     public interface IFactory
     {

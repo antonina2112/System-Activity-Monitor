@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using trpz2.Models;
+using WebSysActMon.Models;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Threading.Tasks;
 
 
-namespace trpz2.Models
+namespace WebSysActMon.Models
 {
     class WindowsStatistics
     {

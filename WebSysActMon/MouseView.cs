@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Threading.Tasks;
-using trpz2.Models;
+using WebSysActMon.Models;
 using System;
 
-namespace SysActMonitor
+namespace WebSysActMon
 {
     public class MouseView:Screen
     {

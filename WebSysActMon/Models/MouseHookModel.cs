@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace trpz2.Models
+namespace WebSysActMon.Models
 {
     public class MouseHookModel
     {

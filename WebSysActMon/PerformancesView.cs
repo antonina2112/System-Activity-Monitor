@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Threading.Tasks;
-using trpz2;
-using trpz2.Bridge;
-using trpz2.Models;
+using WebSysActMon;
+using WebSysActMon.Bridge;
+using WebSysActMon.Models;
 
 
-namespace SysActMonitor
+namespace SysActMWebSysActMononitor
 {
     public class PerformancesView
     {

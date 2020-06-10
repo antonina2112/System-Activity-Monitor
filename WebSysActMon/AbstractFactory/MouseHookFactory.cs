@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using trpz2.Models;
+using WebSysActMon.Models;
 
-namespace trpz2.AbstractFactory
+namespace WebSysActMon.AbstractFactory
 {
     public class MouseHookFactory:IFactory
     {

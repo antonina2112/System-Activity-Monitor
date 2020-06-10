@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Text;
 
 
-namespace trpz2
+namespace WebSysActMon
 {
     class MyProcesses
     {

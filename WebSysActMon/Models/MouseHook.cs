@@ -7,9 +7,9 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using trpz2.AbstractFactory;
+using WebSysActMon.AbstractFactory;
 
-namespace trpz2.Models
+namespace WebSysActMon.Models
 {
     public class MouseHook : Hook, IProduct
     {

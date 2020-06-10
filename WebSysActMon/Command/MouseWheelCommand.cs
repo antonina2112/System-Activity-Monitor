@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace trpz2.Command
+namespace WebSysActMon.Command
 {
     public class MouseWheelCommand:Command
     {

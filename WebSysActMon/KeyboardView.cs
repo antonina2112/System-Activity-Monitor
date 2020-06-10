@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using System.Collections.ObjectModel;
 using System.Collections.Generic;
 using System.Text;
-using trpz2.Models;
+using WebSysActMon.Models;
 
-namespace SysActMonitor
+namespace WebSysActMon
 {
     public class KeyboardView:Screen
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using trpz2.Models;
-using trpz2.Visitor;
+using WebSysActMon.Models;
+using WebSysActMon.Visitor;
 
-namespace SysActMonitor
+namespace WebSysActMon
 {
     public class WindowsView
     {

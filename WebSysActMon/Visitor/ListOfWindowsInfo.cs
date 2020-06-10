@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using trpz2.Models;
+using WebSysActMon.Models;
 
-namespace trpz2.Visitor
+namespace WebSysActMon.Visitor
 {
     public class ListOfWindowsInfo : IElement
     {

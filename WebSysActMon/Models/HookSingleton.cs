@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using trpz2.AbstractFactory;
-using trpz2.Command;
+using WebSysActMon.AbstractFactory;
+using WebSysActMon.Command;
 using System.Windows.Forms;
 
 
-namespace trpz2.Models
+namespace WebSysActMon.Models
 {
     public class HookSingleton
     {

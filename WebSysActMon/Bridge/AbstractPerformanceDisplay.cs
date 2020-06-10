@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using trpz2.Bridge;
-using trpz2.Models;
+using WebSysActMon.Bridge;
+using WebSysActMon.Models;
 
-namespace trpz2
+namespace WebSysActMon
 {
     public abstract class AbstractPerformanceDisplay
     {

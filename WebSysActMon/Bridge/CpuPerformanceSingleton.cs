@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using trpz2.Models;
+using WebSysActMon.Models;
 
-namespace trpz2.Bridge
+namespace WebSysActMon.Bridge
 {
     public class CpuPerformanceSingleton: IPerformanceSingleton
     {

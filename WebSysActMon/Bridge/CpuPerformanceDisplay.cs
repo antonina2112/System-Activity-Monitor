@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace trpz2.Bridge
+namespace WebSysActMon.Bridge
 {
     public class CpuPerformanceDisplay: AbstractPerformanceDisplay
     {

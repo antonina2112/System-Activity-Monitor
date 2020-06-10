@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
-using trpz2.AbstractFactory;
+using WebSysActMon.AbstractFactory;
 
-namespace trpz2.Models
+namespace WebSysActMon.Models
 {
     public class KeyboardHook : IProduct
     {

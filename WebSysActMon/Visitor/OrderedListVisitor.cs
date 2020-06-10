@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace trpz2.Visitor
+namespace WebSysActMon.Visitor
 {
     public class OrderedListVisitor : IVisitor
     {

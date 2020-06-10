@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using trpz2.Models;
+using WebSysActMon.Models;
 using System.Windows.Forms;
 
-namespace trpz2.Command
+namespace WebSysActMon.Command
 {
     public class Client
     {

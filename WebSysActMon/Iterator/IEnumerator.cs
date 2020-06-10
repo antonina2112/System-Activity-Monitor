@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace trpz2.Iterator
+namespace WebSysActMon.Iterator
 {
     public interface IEnumerator
     {

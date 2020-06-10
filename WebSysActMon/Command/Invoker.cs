@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace trpz2.Command
+namespace WebSysActMon.Command
 {
     public class Invoker
     {

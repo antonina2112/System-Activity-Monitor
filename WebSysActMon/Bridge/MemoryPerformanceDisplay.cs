@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace trpz2.Bridge
+namespace WebSysActMon.Bridge
 {
     public class MemoryPerformanceDisplay : AbstractPerformanceDisplay
     {
