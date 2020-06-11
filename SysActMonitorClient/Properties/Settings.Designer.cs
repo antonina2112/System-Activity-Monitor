@@ -26,10 +26,10 @@ namespace SysActMonitorClient.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://localhost:44365/WebService.asmx")]
-        public string SysActMonitorClient_WebService_WebService {
+        [global::System.Configuration.DefaultSettingValueAttribute("https://localhost:44387/SAMService.asmx")]
+        public string SysActMonitorClient_SAMlocalhost_SAMService {
             get {
-                return ((string)(this["SysActMonitorClient_WebService_WebService"]));
+                return ((string)(this["SysActMonitorClient_SAMlocalhost_SAMService"]));
             }
         }
     }

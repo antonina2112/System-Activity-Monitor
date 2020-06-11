@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using System.Threading.Tasks;
-using SysActMonitorClient.WebService;
+using SysActMonitorClient.SAMlocalhost;
 //using trpz2;
 //using trpz2.Bridge;
 //using trpz2.Models;
@@ -13,7 +13,7 @@ namespace SysActMonitorClient
 {
     public class PerformancesView
     {
-        private readonly WebService.WebService Service;
+        private readonly SAMService Service = new SAMService();
         public ObservableCollection<Performance> memoryPerformance { get; set; } = new ObservableCollection<Performance>();
         public ObservableCollection<Performance> cpuPerformance { get; set; } = new ObservableCollection<Performance>();
 

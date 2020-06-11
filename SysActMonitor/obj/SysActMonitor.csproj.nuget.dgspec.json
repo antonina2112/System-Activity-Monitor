@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\6_sem\\trpz\\Новая папка\\trpz2\\SysActMonitor\\SysActMonitor.csproj": {}
+    "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\SysActMonitor\\SysActMonitor.csproj": {}
   },
   "projects": {
-    "D:\\6_sem\\trpz\\Новая папка\\trpz2\\SysActMonitor\\SysActMonitor.csproj": {
+    "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\SysActMonitor\\SysActMonitor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\SysActMonitor\\SysActMonitor.csproj",
+        "projectUniqueName": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\SysActMonitor\\SysActMonitor.csproj",
         "projectName": "SysActMonitor",
-        "projectPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\SysActMonitor\\SysActMonitor.csproj",
+        "projectPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\SysActMonitor\\SysActMonitor.csproj",
         "packagesPath": "C:\\Users\\Antonina\\.nuget\\packages\\",
-        "outputPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\SysActMonitor\\obj\\",
+        "outputPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\SysActMonitor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antonina\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\trpz2.csproj": {
-                "projectPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\trpz2.csproj"
+              "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\trpz2.csproj": {
+                "projectPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\trpz2.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\trpz2.csproj": {
+    "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\trpz2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\trpz2.csproj",
+        "projectUniqueName": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\trpz2.csproj",
         "projectName": "trpz2",
-        "projectPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\trpz2.csproj",
+        "projectPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\trpz2.csproj",
         "packagesPath": "C:\\Users\\Antonina\\.nuget\\packages\\",
-        "outputPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\obj\\",
+        "outputPath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Antonina\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,17 @@
+D:\6_sem\trpz\Новая папка\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.csprojAssemblyReference.cache
+D:\6_sem\trpz\Новая папка\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.csproj.CoreCompileInputs.cache
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\SysActMonitorClient.exe.config
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\SysActMonitorClient.exe
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\SysActMonitorClient.pdb
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\Caliburn.Micro.dll
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\Caliburn.Micro.Platform.dll
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\System.Windows.Interactivity.dll
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\Caliburn.Micro.xml
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\Caliburn.Micro.Platform.xml
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.csprojAssemblyReference.cache
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.csproj.CoreCompileInputs.cache
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.csproj.CopyComplete
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.exe
+D:\6_sem\trpz\Новая папка\trpz2поломаныйсервис\trpz2\SysActMonitorClient\obj\Debug\SysActMonitorClient.pdb

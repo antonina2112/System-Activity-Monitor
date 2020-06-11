@@ -64,11 +64,9 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Views\KeyboardView.cs" />
-    <Compile Include="Views\MouseView.cs" />
     <Compile Include="Views\PerformancesView.cs" />
     <Compile Include="Views\WindowsView.cs" />
-    <Compile Include="Web References\WebService\Reference.cs">
+    <Compile Include="Web References\SAMlocalhost\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.map</DependentUpon>
@@ -81,14 +79,17 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Web References\WebService\Performance.datasource">
+    <None Include="Web References\SAMlocalhost\Performance.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </None>
-    <None Include="Web References\WebService\Reference.map">
+    <None Include="Web References\SAMlocalhost\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
-    <None Include="Web References\WebService\WebService.wsdl" />
+    <None Include="Web References\SAMlocalhost\SAMService.wsdl" />
+    <None Include="Web References\SAMlocalhost\WindowInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -97,20 +98,20 @@
     <WebReferences Include="Web References\" />
   </ItemGroup>
   <ItemGroup>
-    <WebReferenceUrl Include="https://localhost:44365/WebService.asmx">
+    <WebReferenceUrl Include="https://localhost:44387/SAMService.asmx">
       <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\WebService\</RelPath>
-      <UpdateFromURL>https://localhost:44365/WebService.asmx</UpdateFromURL>
+      <RelPath>Web References\SAMlocalhost\</RelPath>
+      <UpdateFromURL>https://localhost:44387/SAMService.asmx</UpdateFromURL>
       <ServiceLocationURL>
       </ServiceLocationURL>
       <CachedDynamicPropName>
       </CachedDynamicPropName>
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>SysActMonitorClient_WebService_WebService</CachedSettingsPropName>
+      <CachedSettingsPropName>SysActMonitorClient_SAMlocalhost_SAMService</CachedSettingsPropName>
     </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Web References\WebService\WebService.disco" />
+    <None Include="Web References\SAMlocalhost\SAMService.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

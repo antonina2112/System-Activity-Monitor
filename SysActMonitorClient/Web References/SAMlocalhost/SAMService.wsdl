@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMemoryPerformance">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMemoryPerformanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMemoryPerformanceResult" type="tns:ArrayOfPerformance" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfPerformance">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Performance" nillable="true" type="tns:Performance" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Performance">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Time" type="s:dateTime" />
+          <s:element minOccurs="1" maxOccurs="1" name="Value" type="s:float" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetCpuPerformance">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCpuPerformanceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCpuPerformanceResult" type="tns:ArrayOfPerformance" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetOpenWindows">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetOpenWindowsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetOpenWindowsResult" type="tns:ArrayOfWindowInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWindowInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WindowInfo" nillable="true" type="tns:WindowInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WindowInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Date" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMemoryPerformanceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMemoryPerformance" />
+  </wsdl:message>
+  <wsdl:message name="GetMemoryPerformanceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMemoryPerformanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCpuPerformanceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCpuPerformance" />
+  </wsdl:message>
+  <wsdl:message name="GetCpuPerformanceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCpuPerformanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetOpenWindowsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetOpenWindows" />
+  </wsdl:message>
+  <wsdl:message name="GetOpenWindowsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetOpenWindowsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SAMServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMemoryPerformance">
+      <wsdl:input message="tns:GetMemoryPerformanceSoapIn" />
+      <wsdl:output message="tns:GetMemoryPerformanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCpuPerformance">
+      <wsdl:input message="tns:GetCpuPerformanceSoapIn" />
+      <wsdl:output message="tns:GetCpuPerformanceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenWindows">
+      <wsdl:input message="tns:GetOpenWindowsSoapIn" />
+      <wsdl:output message="tns:GetOpenWindowsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SAMServiceSoap" type="tns:SAMServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMemoryPerformance">
+      <soap:operation soapAction="http://tempuri.org/GetMemoryPerformance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCpuPerformance">
+      <soap:operation soapAction="http://tempuri.org/GetCpuPerformance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenWindows">
+      <soap:operation soapAction="http://tempuri.org/GetOpenWindows" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SAMServiceSoap12" type="tns:SAMServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMemoryPerformance">
+      <soap12:operation soapAction="http://tempuri.org/GetMemoryPerformance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCpuPerformance">
+      <soap12:operation soapAction="http://tempuri.org/GetCpuPerformance" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetOpenWindows">
+      <soap12:operation soapAction="http://tempuri.org/GetOpenWindows" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SAMService">
+    <wsdl:port name="SAMServiceSoap" binding="tns:SAMServiceSoap">
+      <soap:address location="https://localhost:44387/SAMService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SAMServiceSoap12" binding="tns:SAMServiceSoap12">
+      <soap12:address location="https://localhost:44387/SAMService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,24 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using SysActMonitorClient.WebService;
-using trpz2.Models;
-using trpz2.Visitor;
+using System.ComponentModel;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using SysActMonitorClient.SAMlocalhost;
+//using trpz2.Models;
+//using trpz2.Visitor;
 
 namespace SysActMonitorClient
 {
     public class WindowsView
     {
-        ObjectStructure windowsClient;
+        private readonly SAMService service = new SAMService();
+        private List<WindowInfo> _windows;
         public WindowsView()
         {
-            windowsClient = new ObjectStructure();
-            windowsClient.Add(new ListOfWindowsInfo());
-            windowsClient.Accept(new OrderedListVisitor());
+            _windows = service.GetOpenWindows().ToList();
         }
+        //ObjectStructure windowsClient;
+        //public WindowsView()
+        //{
+        //    windowsClient = new ObjectStructure();
+        //    windowsClient.Add(new ListOfWindowsInfo());
+        //    windowsClient.Accept(new OrderedListVisitor());
+        //}
         public void PrintWindowsInfo()
         {
-            foreach (var e in windowsClient.GetWindows())
+            foreach (var e in service.GetOpenWindows())
             {
                 Console.WriteLine($"Id: {e.ID}, \n Title: {e.Title}");
             }

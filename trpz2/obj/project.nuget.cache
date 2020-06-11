@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S8We3Udlgm5BhXeq6aQBoHwT2cQHFbIjREwPU2sj+E2U3dg1cT11hgGmy2bEy1h0Vy14AVIqzprRtU3lqPr0+w==",
+  "dgSpecHash": "ZCew8brN+CUdnEICBsbwOz0HYHYACCBlO4EZQrBTQ2KaZeH5n3Q6dKszdbJ+6s1ZRUnRPkWNPmUDtVlBKWFQqA==",
   "success": true,
-  "projectFilePath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\trpz2\\trpz2.csproj",
+  "projectFilePath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\trpz2\\trpz2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antonina\\.nuget\\packages\\caliburn.micro\\3.2.0\\caliburn.micro.3.2.0.nupkg.sha512",
     "C:\\Users\\Antonina\\.nuget\\packages\\caliburn.micro.core\\3.2.0\\caliburn.micro.core.3.2.0.nupkg.sha512",

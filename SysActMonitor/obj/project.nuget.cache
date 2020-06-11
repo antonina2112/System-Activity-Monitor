@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eRav2yfeU1BsrTi6SA7nVWSnhx+lv/EwpE2tyNQjJB1SOCzrPOegFAPVdrxORdPuyybVFKHmGXVu87nUQBGnPA==",
+  "dgSpecHash": "S8nK89JnCcfxbTPZuWSCim8OXZxQjbWQYOxrnSA3JSY9r/XtwdX9GjoNTliIXRcJKYNlcFcdl1h12fvZGx2r2g==",
   "success": true,
-  "projectFilePath": "D:\\6_sem\\trpz\\Новая папка\\trpz2\\SysActMonitor\\SysActMonitor.csproj",
+  "projectFilePath": "D:\\6_sem\\trpz\\Новая папка\\trpz2поломаныйсервис\\trpz2\\SysActMonitor\\SysActMonitor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antonina\\.nuget\\packages\\caliburn.micro\\3.2.0\\caliburn.micro.3.2.0.nupkg.sha512",
     "C:\\Users\\Antonina\\.nuget\\packages\\caliburn.micro.core\\3.2.0\\caliburn.micro.core.3.2.0.nupkg.sha512",
