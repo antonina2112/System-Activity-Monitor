@@ -102,7 +102,6 @@
     <Compile Include="Models\MouseHook.cs" />
     <Compile Include="Models\MouseHookModel.cs" />
     <Compile Include="Models\Performance.cs" />
-    <Compile Include="Models\StatisticsModel.cs" />
     <Compile Include="Models\WindowInfo.cs" />
     <Compile Include="Models\WindowsStatistics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

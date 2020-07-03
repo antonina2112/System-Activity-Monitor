@@ -28,7 +28,7 @@ namespace SysActMonitorClient
             //{
             //    performances.Add(p, k);
             //}
-            //foreach(Performance p in performances.cpuPerformance)
+            //foreach (Performance p in performances.cpuPerformance)
             //{
             //    performances.Add(p, k);
             //}

@@ -26,8 +26,11 @@ namespace SAMWebService
         {
             return "Привет всем!";
         }
-        readonly AbstractPerformanceDisplay _memoryDisplay = new MemoryPerformanceDisplay(MemoryPerformanceSingleton.GetInstance());
-        readonly AbstractPerformanceDisplay _cpuDisplay = new CpuPerformanceDisplay(CpuPerformanceSingleton.GetInstance());
+
+        readonly AbstractPerformanceDisplay _memoryDisplay =
+            new MemoryPerformanceDisplay(MemoryPerformanceSingleton.GetInstance());
+        readonly AbstractPerformanceDisplay _cpuDisplay = 
+            new CpuPerformanceDisplay(CpuPerformanceSingleton.GetInstance());
 
         [WebMethod]
         public List<Performance> GetMemoryPerformance()
